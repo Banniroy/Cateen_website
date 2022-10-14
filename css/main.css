@@ -1,6 +1,12 @@
 table, tr, th,  td{
-    border: 1px solid black;
+    border: 3.4px solid black;
     font-family: 'Courier New', Courier, monospace;
     border-collapse:separate;
-    padding: 0.5rem;
+    padding: 1rem;
+}
+
+body{
+    font-size: 27px;
+    background-color:#F0EDEE;
+    color: #000;
 }
