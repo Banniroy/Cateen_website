@@ -6,7 +6,31 @@ table, tr, th,  td{
 }
 
 body{
-    font-size: 27px;
-    background-color:#F0EDEE;
+    box-sizing: border-box;
+    background-color:papayawhip;
     color: #000;
+}
+
+.head {
+    background-color:rgba(128, 0, 128, 1);
+    color:white;
+    font-family:cursive;
+    text-align: center;
+    border: 2px solid royalblue;
+    margin: 1em;
+    padding: 2em;
+    outline: 2px solid black;
+}
+
+a:visited{
+    color:rgb(0, 100, 5);
+}
+
+a:hover, a:focus{
+    color:rgba(128, 0, 128, 1);
+    background: green;
+}
+
+a:active{
+    color: crimson;
 }
