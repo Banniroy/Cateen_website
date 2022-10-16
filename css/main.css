@@ -21,16 +21,17 @@ body{
     padding: 2em;
     outline: 2px solid black;
 }
-
-a:visited{
-    color:rgb(0, 100, 5);
+a{
+    background-color:rgb(12, 100, 0);
+    color: #ffff;
+    padding: 0.3em;
+    border: 2px solid royalblue;
+    margin: 1em;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
-a:hover, a:focus{
-    color:rgba(128, 0, 128, 1);
-    background: green;
+a:hover , a:focus{
+    color: red;
 }
 
-a:active{
-    color: crimson;
-}
