@@ -7,20 +7,28 @@ table, tr, th,  td{
 
 body{
     box-sizing: border-box;
-    background-color:papayawhip;
+    background-color:white;
     color: #000;
 }
 
-.head {
+header{
     background-color:rgba(128, 0, 128, 1);
     color:white;
     font-family:cursive;
     text-align: center;
-    border: 2px solid royalblue;
     margin: 1em;
-    padding: 2em;
-    outline: 2px solid black;
+    padding: 1.5em;
+    outline: 1px solid black;
+    border-radius: 8px;
+    border: 2px solid royalblue;
+    
 }
+
+.head{
+    position: sticky;
+    top: 0;
+}
+
 a{
     background-color:rgb(12, 100, 0);
     color: #ffff;
@@ -31,7 +39,20 @@ a{
     text-decoration: none;
 }
 
+
 a:hover , a:focus{
     color: red;
 }
 
+h2{
+    text-align: center;
+    border: 0.5px;
+    margin: 1em;
+    padding: 1.5rem;
+    color: white;
+    background-color: purple;
+    font-family:cursive;
+    outline: 1px solid black;
+    border-radius: 8px;
+    border: 2px solid royalblue;
+} 
