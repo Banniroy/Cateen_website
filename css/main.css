@@ -1,5 +1,7 @@
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 body{
@@ -9,14 +11,14 @@ body{
 }
 
 header {
-    background-color:rebeccapurple;
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 8rem;
+    background-color:rgb(236, 205, 236);
+    color: black;
+    font-size:small;
+    font-family: cursive;
     text-align: center;
     padding: 0.1em;
     border-radius: 1px;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 4px rgb(161, 199, 199);
 }
 
 .head{
@@ -26,7 +28,7 @@ header {
 
 a{
     color:darkorchid;
-    padding: 0.3em;
+    padding: 0.1em;
     border: 2px solid royalblue;
     margin: 1em;
     border-radius: 15px;
@@ -36,29 +38,61 @@ a{
 
 
 a:hover , a:focus{
-    background-color:darkturquoise;
+    background-color:rgb(0, 207, 128);
     color: white;
+    text-shadow: 1px 3px 3px black;
 }
 
 h2{
+    font-size:1.4em;
     padding: 0.5em;
     text-align: center;
-    color: white;
-    background-color:rebeccapurple;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    background-color:rgb(238, 217, 238);;
+    font-family:cursive;
     border-radius: 4px;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 4px rgb(161, 199, 199);
 } 
 
 img{
     height: auto;
     min-width: 100px;
+    border-radius:50%;
 }
 
 table, tr, th,  td{
+    color: black;
     border: 3.4px solid black;
     font-family: 'Courier New', Courier, monospace;
     border-collapse:separate;
     padding: 1rem;
+   
+    text-shadow: 2px 2px 4px rgb(213, 240, 240);
 }
 
+.button1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+button {
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+    text-shadow: 2px 2px  5px rgba(0, 225, 255, 0.678);
+    border: 2px solid rgb(190, 121, 187);
+    width: 20%;
+    padding: 6px;
+    background-color: rgb(0, 207, 128);
+    text-shadow: 1px 3px 3px black;
+    outline: 7px solid rgb(231, 218, 231);
+    outline-offset: 1px;
+    
+}
+
+button:hover{
+    background-color:rgb(88, 214, 168);
+    color: whitesmoke;
+    text-shadow: 1px 3px 3px black;
+}
