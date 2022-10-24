@@ -1,3 +1,5 @@
+/* HTML BEHAVIOUR SCROLL SETTING */
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,9 +9,10 @@ html{
 
     /* COLOR MODIFICATION */
 
-    --BB: black;
-    --FT: cursive;
+    --BLACK: black;
+    --CURSIVE: cursive;
     --WHITE: white;
+    --OUTLINE: orchid;
 }
 
 
@@ -25,7 +28,7 @@ html{
 
 body{
     background-color: hsl(0, 100%, 97%);
-    color: var(--BB);
+    color: var(--BLACK);
     width: 100%;
 }
 
@@ -33,9 +36,9 @@ body{
 
 header {
     background-color:rgb(236, 205, 236);
-    color: var(--BB);
+    color: var(--BLACK);
     font-size:small;
-    font-family: var(--FT);
+    font-family: var(--CURSIVE);
     text-align: center;
     padding: 0.1em;
     border-radius: 1px;
@@ -57,7 +60,7 @@ nav, figure, main, footer{
 /* URL STYLING */
 a{
     color:darkorchid;
-    padding: 0.1em;
+    padding: 0.5em;
     border: 2px solid rgb(146, 109, 163);
     margin: 1em;
     border-radius: 15px;
@@ -65,11 +68,15 @@ a{
     text-shadow: 2px 2px  5px rgba(0, 225, 255, 0.678);
 }
 
+.paragraph{
+    margin-bottom: 2em;
+}
 
 a:hover , a:focus{
     background-color:rgb(0, 207, 128);
     color: var(--WHITE);
-    text-shadow: 1px 3px 3px var(--BB);
+    text-shadow: 1px 3px 3px var(--BLACK);
+    outline: 1px var(--OUTLINE) solid;
     border-width: 4px;
 }
 
@@ -79,9 +86,9 @@ h2{
     font-size:1.4em;
     padding: 0.5em;
     text-align: center;
-    color: var(--BB);
-    background-color:rgb(238, 217, 238);;
-    font-family: var(--FT);
+    background-color:rgb(238, 217, 238);
+    color:  rgb(5, 144, 91);
+    font-family: var(--CURSIVE);
     border-radius: 4px;
     text-shadow: 2px 2px 4px rgb(161, 199, 199);
 } 
@@ -110,9 +117,9 @@ img{
 .field_legend{
     text-align: center;
     font-size: large;
-    font-family:var(--FT);
+    font-family:var(--CURSIVE);
     font-weight: bolder;
-    color: var(--BB);
+    color: var(--BLACK);
 }
 
 .contact_label{
@@ -122,6 +129,7 @@ img{
 
 .contact_text{
     display: block;
+
 }
 
 .contact_input, .contact_text{
@@ -150,28 +158,72 @@ button {
     padding: 6px;
     border-radius: 10px;
     background-color: rgb(0, 207, 128);
-    outline: 7px solid rgb(231, 218, 231);
-    outline-offset: 1px;
+    font-family: var(--CURSIVE);
+    font-size: small;
     
 }
 
 button:hover{
-    background-color:rgb(133, 214, 185);
+    border: 1rem;
+    background-color:rgb(33, 138, 113);
     color: var(--WHITE);
-    text-shadow: 1px 3px 3px var(--BB);
+    text-shadow: 1px 3px 3px var(--BLACK);
     border-width: 3px;
     border-radius: 13px;
+    outline: 3px solid var(--OUTLINE);
+    font-weight: 500;
 }
 
 /* TABLE STYLING */
 
 table, tr, th,  td{
     color: var(--BB);
-    border: 3.4px solid var(--BB);
-    font-family: var(--FT);
+    border: 3.4px solid var(--BLACK);
+    font-family: var(--CURSIVE);
     border-collapse:separate;
     padding: 1rem;
    
     text-shadow: 2px 2px 4px var(--WHITE);
 }
 
+/* ARTICLE STYLING */
+.Pryk{
+    font-size: larger;
+}
+
+.aside_q{
+    color:  rgb(5, 144, 91);
+    text-align: center;
+    font-family: var(--CURSIVE);
+}
+
+.h6{
+    margin-bottom: 1rem;
+}
+
+.interval{
+    border: var(--OUTLINE);
+    width: 50%;
+    
+}
+
+.day{
+    font-size: larger;
+    color:  rgb(5, 164, 103);
+    font-family: var(--CURSIVE);
+    margin-left:1rem;
+}
+
+.h6{
+    font-size: larger;
+    color:  rgb(5, 164, 103);
+    font-family: var(--CURSIVE);
+}
+
+.pryk_trival{
+    margin-top: 15px;
+}
+
+.copyright{
+    text-align: center;
+}
