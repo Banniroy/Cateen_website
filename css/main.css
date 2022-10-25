@@ -10,9 +10,12 @@ html{
     /* COLOR MODIFICATION */
 
     --BLACK: black;
-    --CURSIVE: cursive;
     --WHITE: white;
     --OUTLINE: orchid;
+
+    /* TEXT MODIFICATION */
+
+    --CURSIVE: cursive;
 }
 
 
@@ -22,6 +25,7 @@ html{
     box-sizing: border-box;
     margin-top: 0;
     margin-left: 0;
+    margin-right: 0;
 }
 
 /* WEBPAGE BACKGROUND STYLING */
@@ -29,7 +33,7 @@ html{
 body{
     background-color: hsl(0, 100%, 97%);
     color: var(--BLACK);
-    width: 100%;
+    max-width: 100%;
 }
 
 /* HEADER STYLING */
@@ -47,7 +51,7 @@ header {
 
 .head{
     position:sticky;
-    top:0%;
+    top:0;
 }
 
 /* PAGE-LAYOUT STYLING */
@@ -55,7 +59,6 @@ header {
 nav, figure, main, footer{
     margin: 1.5em;
 } 
-
 
 /* URL STYLING */
 a{
@@ -69,7 +72,7 @@ a{
 }
 
 .paragraph{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 a:hover , a:focus{
@@ -79,7 +82,6 @@ a:hover , a:focus{
     outline: 1px var(--OUTLINE) solid;
     border-width: 4px;
 }
-
 
 /* HEADER TWO STYLING */
 h2{
@@ -155,6 +157,7 @@ button {
     text-shadow: 2px 2px  5px rgba(0, 225, 255, 0.678);
     border: 2px solid rgb(173, 139, 172);
     width: 20%;
+    cursor: pointer;
     padding: 6px;
     border-radius: 10px;
     background-color: rgb(0, 207, 128);
@@ -186,6 +189,11 @@ table, tr, th,  td{
     text-shadow: 2px 2px 4px var(--WHITE);
 }
 
+.table_caption{
+    font-family: var(--CURSIVE);
+    color: rgb(5, 144, 91);
+}
+
 /* ARTICLE STYLING */
 .Pryk{
     font-size: larger;
@@ -209,7 +217,7 @@ table, tr, th,  td{
 
 .day{
     font-size: larger;
-    color:  rgb(5, 164, 103);
+    color:  var(--BLACK);
     font-family: var(--CURSIVE);
     margin-left:1rem;
 }
@@ -226,4 +234,28 @@ table, tr, th,  td{
 
 .copyright{
     text-align: center;
+}
+
+/* MOBILE DEVICE RESOLUTION */
+@media screen and (max-width: 640px){
+    body{
+         background-color: radial-gradient( var(--WHITE), orange);
+    }
+    header{
+        background-color: rgb(38, 155, 100);
+        color:var(--BLACK);
+    }
+    
+    h1{
+        margin: 1%;
+    }
+
+    h2{
+        background-color: inherit;
+        border-bottom: 2px solid var(--BLACK);
+    }
+
+    .index_class{
+        padding-top: 0;
+    }
 }
