@@ -57,7 +57,7 @@ header {
 /* PAGE-LAYOUT STYLING */
 
 nav, figure, main, footer{
-    margin: 1.5em;
+    margin: 1em;
 } 
 
 /* URL STYLING */
@@ -202,6 +202,7 @@ table, tr, th,  td{
 .aside_q{
     color:  rgb(5, 144, 91);
     text-align: center;
+    margin-bottom: 0.5rem;
     font-family: var(--CURSIVE);
 }
 
@@ -211,8 +212,7 @@ table, tr, th,  td{
 
 .interval{
     border: var(--OUTLINE);
-    width: 50%;
-    
+    width: 100%;
 }
 
 .day{
