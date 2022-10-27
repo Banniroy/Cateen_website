@@ -31,7 +31,7 @@ html{
 /* WEBPAGE BACKGROUND STYLING */
 
 body{
-    background-color: hsl(0, 100%, 97%);
+    background-color: radial-gradient( var(--WHITE), orange);
     color: var(--BLACK);
     max-width: 100%;
 }
@@ -39,7 +39,7 @@ body{
 /* HEADER STYLING */
 
 header {
-    background-color:rgb(236, 205, 236);
+    background-color: rgb(38, 155, 100);
     color: var(--BLACK);
     font-size:small;
     font-family: var(--CURSIVE);
@@ -85,10 +85,11 @@ a:hover , a:focus{
 
 /* HEADER TWO STYLING */
 h2{
+    background-color: inherit;
+    border-bottom: 2px solid var(--BLACK);
     font-size:1.4em;
     padding: 0.5em;
     text-align: center;
-    background-color:rgb(238, 217, 238);
     color:  rgb(5, 144, 91);
     font-family: var(--CURSIVE);
     border-radius: 4px;
@@ -234,28 +235,4 @@ table, tr, th,  td{
 
 .copyright{
     text-align: center;
-}
-
-/* MOBILE DEVICE RESOLUTION */
-@media screen and (max-width: 640px){
-    body{
-         background-color: radial-gradient( var(--WHITE), orange);
-    }
-    header{
-        background-color: rgb(38, 155, 100);
-        color:var(--BLACK);
-    }
-    
-    h1{
-        margin: 1%;
-    }
-
-    h2{
-        background-color: inherit;
-        border-bottom: 2px solid var(--BLACK);
-    }
-
-    .index_class{
-        padding-top: 0;
-    }
 }
