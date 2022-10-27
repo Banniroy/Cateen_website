@@ -1,6 +1,5 @@
-This is my first Ordinary HTML website i personally built for Cateen Food Ordering which consist of four pages.
-
-It also consist of minimum CSS for the visibility of the table border line.
+This is my first HTML & CSS website i personally built for Cateen Food Ordering which consist of four pages.
 
 Ajibade Abdulmatin Adekola
+
 matinadekol33@gmail.com
